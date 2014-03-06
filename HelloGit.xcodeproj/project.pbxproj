@@ -19,6 +19,7 @@
 		EE0DE8C01783EBB000693C77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0DE8BF1783EBB000693C77 /* ViewController.m */; };
 		EE0DE8C31783EBB000693C77 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0DE8C11783EBB000693C77 /* ViewController_iPhone.xib */; };
 		EE0DE8C61783EBB000693C77 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0DE8C41783EBB000693C77 /* ViewController_iPad.xib */; };
+		EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3E835618C89279007D351F /* NSString+Symbol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		EE0DE8BF1783EBB000693C77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE0DE8C21783EBB000693C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		EE0DE8C51783EBB000693C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		EE3E835518C89279007D351F /* NSString+Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Symbol.h"; sourceTree = "<group>"; };
+		EE3E835618C89279007D351F /* NSString+Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Symbol.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				EE0DE8C11783EBB000693C77 /* ViewController_iPhone.xib */,
 				EE0DE8C41783EBB000693C77 /* ViewController_iPad.xib */,
 				EE0DE8AD1783EBB000693C77 /* Supporting Files */,
+				EE3E835518C89279007D351F /* NSString+Symbol.h */,
+				EE3E835618C89279007D351F /* NSString+Symbol.m */,
 			);
 			path = HelloGit;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0DE8B31783EBB000693C77 /* main.m in Sources */,
+				EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */,
 				EE0DE8B71783EBB000693C77 /* AppDelegate.m in Sources */,
 				EE0DE8C01783EBB000693C77 /* ViewController.m in Sources */,
 			);
@@ -310,6 +316,7 @@
 				EE0DE8CB1783EBB000693C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

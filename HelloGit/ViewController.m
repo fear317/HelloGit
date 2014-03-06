@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+Symbol.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString* str = @"100.000";
+    NSString* formatStr=nil;
+    formatStr = [str addSymbol:@"￥" position:YES];
+    formatStr = [str addSymbol:@"$" position:NO];
+    formatStr = nil;
 }
 
 - (void)didReceiveMemoryWarning
