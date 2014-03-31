@@ -20,6 +20,12 @@
 		EE0DE8C31783EBB000693C77 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0DE8C11783EBB000693C77 /* ViewController_iPhone.xib */; };
 		EE0DE8C61783EBB000693C77 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0DE8C41783EBB000693C77 /* ViewController_iPad.xib */; };
 		EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3E835618C89279007D351F /* NSString+Symbol.m */; };
+		EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AA818E1490000F67FE7 /* LeoSingleton.m */; };
+		EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */; };
+		EEC40BCC18E93DD10090F346 /* WhiteCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC40BCB18E93DD10090F346 /* WhiteCarFactory.m */; };
+		EEC40BCF18E93DF60090F346 /* WhiteCar.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC40BCE18E93DF60090F346 /* WhiteCar.m */; };
+		EEC40BD218E93E340090F346 /* AbstractCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC40BD118E93E340090F346 /* AbstractCarFactory.m */; };
+		EEC40BD518E948280090F346 /* AbstractCar.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC40BD418E948280090F346 /* AbstractCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,18 @@
 		EE0DE8C51783EBB000693C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		EE3E835518C89279007D351F /* NSString+Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Symbol.h"; sourceTree = "<group>"; };
 		EE3E835618C89279007D351F /* NSString+Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Symbol.m"; sourceTree = "<group>"; };
+		EE573AA718E1490000F67FE7 /* LeoSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoSingleton.h; sourceTree = "<group>"; };
+		EE573AA818E1490000F67FE7 /* LeoSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoSingleton.m; sourceTree = "<group>"; };
+		EE573AAB18E16C7400F67FE7 /* LeoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDelegate.h; sourceTree = "<group>"; };
+		EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoDelegate.m; sourceTree = "<group>"; };
+		EEC40BCA18E93DD10090F346 /* WhiteCarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteCarFactory.h; sourceTree = "<group>"; };
+		EEC40BCB18E93DD10090F346 /* WhiteCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteCarFactory.m; sourceTree = "<group>"; };
+		EEC40BCD18E93DF60090F346 /* WhiteCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteCar.h; sourceTree = "<group>"; };
+		EEC40BCE18E93DF60090F346 /* WhiteCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteCar.m; sourceTree = "<group>"; };
+		EEC40BD018E93E340090F346 /* AbstractCarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCarFactory.h; sourceTree = "<group>"; };
+		EEC40BD118E93E340090F346 /* AbstractCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractCarFactory.m; sourceTree = "<group>"; };
+		EEC40BD318E948280090F346 /* AbstractCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCar.h; sourceTree = "<group>"; };
+		EEC40BD418E948280090F346 /* AbstractCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +106,7 @@
 		EE0DE8AC1783EBB000693C77 /* HelloGit */ = {
 			isa = PBXGroup;
 			children = (
+				EE573AA518E148AF00F67FE7 /* DesignPattern */,
 				EE0DE8B51783EBB000693C77 /* AppDelegate.h */,
 				EE0DE8B61783EBB000693C77 /* AppDelegate.m */,
 				EE0DE8BE1783EBB000693C77 /* ViewController.h */,
@@ -113,6 +132,49 @@
 				EE0DE8BC1783EBB000693C77 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE573AA518E148AF00F67FE7 /* DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				EEC40BC918E93CE10090F346 /* Factory */,
+				EE573AAA18E16C5300F67FE7 /* Delegate */,
+				EE573AA618E148C900F67FE7 /* Singleton */,
+			);
+			name = DesignPattern;
+			sourceTree = "<group>";
+		};
+		EE573AA618E148C900F67FE7 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				EE573AA718E1490000F67FE7 /* LeoSingleton.h */,
+				EE573AA818E1490000F67FE7 /* LeoSingleton.m */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
+		EE573AAA18E16C5300F67FE7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EE573AAB18E16C7400F67FE7 /* LeoDelegate.h */,
+				EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		EEC40BC918E93CE10090F346 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				EEC40BCA18E93DD10090F346 /* WhiteCarFactory.h */,
+				EEC40BCB18E93DD10090F346 /* WhiteCarFactory.m */,
+				EEC40BCD18E93DF60090F346 /* WhiteCar.h */,
+				EEC40BCE18E93DF60090F346 /* WhiteCar.m */,
+				EEC40BD018E93E340090F346 /* AbstractCarFactory.h */,
+				EEC40BD118E93E340090F346 /* AbstractCarFactory.m */,
+				EEC40BD318E948280090F346 /* AbstractCar.h */,
+				EEC40BD418E948280090F346 /* AbstractCar.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,9 +245,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0DE8B31783EBB000693C77 /* main.m in Sources */,
+				EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */,
+				EEC40BD518E948280090F346 /* AbstractCar.m in Sources */,
 				EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */,
+				EEC40BCC18E93DD10090F346 /* WhiteCarFactory.m in Sources */,
+				EEC40BD218E93E340090F346 /* AbstractCarFactory.m in Sources */,
+				EEC40BCF18E93DF60090F346 /* WhiteCar.m in Sources */,
 				EE0DE8B71783EBB000693C77 /* AppDelegate.m in Sources */,
 				EE0DE8C01783EBB000693C77 /* ViewController.m in Sources */,
+				EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +346,7 @@
 		EE0DE8CA1783EBB000693C77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloGit/HelloGit-Prefix.pch";
 				INFOPLIST_FILE = "HelloGit/HelloGit-Info.plist";
@@ -289,6 +358,7 @@
 		EE0DE8CB1783EBB000693C77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloGit/HelloGit-Prefix.pch";
 				INFOPLIST_FILE = "HelloGit/HelloGit-Info.plist";
