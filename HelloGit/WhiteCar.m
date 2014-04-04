@@ -10,6 +10,6 @@
 
 @implementation WhiteCar
 -(void)carAlarm{
-    NSLog(@"white bibo white bibo white bibo white bibo white bibo white bibo ");
+    NSLog(@"Alarm: white bibo white bibo white bibo white bibo white bibo white bibo ");
 }
 @end
