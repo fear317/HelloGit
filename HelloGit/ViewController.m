@@ -12,6 +12,11 @@
 #import "AbstractCarFactory.h"
 #import "AbstractCar.h"
 #import "WhiteCarFactory.h"
+<<<<<<< HEAD
+=======
+#import "LeoDirector.h"
+#import "LeoAbstractChemicalDrug.h"
+>>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
 
 @interface Model : NSObject
 @end
@@ -38,11 +43,20 @@
     
     
     [self testReferCount];
+<<<<<<< HEAD
     [self testSingleton];
     [self testFactory];
     self.leoDelegate = [[LeoDelegate alloc] init];
     self.leoDelegate.delegate = self;
     [self testDelegate:500];
+=======
+    [self testSingletonPattern];
+    [self testFactoryPattern];
+    self.leoDelegate = [[LeoDelegate alloc] init];
+    self.leoDelegate.delegate = self;
+    [self testDelegate:500];
+    [self testBuilderPattern];
+>>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
 }
 
 - (void)didReceiveMemoryWarning
@@ -52,12 +66,33 @@
     
     [self.leoDelegate release];
 }
+<<<<<<< HEAD
 -(void) testFactory{
+=======
+-(void) testBuilderPattern{
+    LeoDirector * director = [[LeoDirector alloc] init];
+    LeoAbstractChemicalDrug *drug1 = [director createChemicalDrug1];
+    NSLog(@"name of drug1 is %@",drug1.chemicalName);
+    
+    LeoAbstractChemicalDrug *drug2 = [director createChemicalDrug2];
+    NSLog(@"name of drug2 is %@",drug2.chemicalName);
+    
+    LeoAbstractChemicalDrug *drug3 = [director createChemicalDrug3];
+    NSLog(@"name of drug3 is %@",drug3.chemicalName);
+    
+    
+}
+-(void) testFactoryPattern{
+>>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
     AbstractCarFactory *carFactory = [[WhiteCarFactory alloc] init];
     AbstractCar *car = [carFactory createCar];
     [car carAlarm];
 }
+<<<<<<< HEAD
 - (void) testSingleton {
+=======
+- (void) testSingletonPattern {
+>>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
     LeoSingleton* singleton1 = [LeoSingleton shareLeoSingleton];
     singleton1.name = @"leo";
     LeoSingleton* singleton2 = [LeoSingleton shareLeoSingleton];
