@@ -22,18 +22,19 @@
 		EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3E835618C89279007D351F /* NSString+Symbol.m */; };
 		EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AA818E1490000F67FE7 /* LeoSingleton.m */; };
 		EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */; };
+		EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7918FB7E360095C315 /* AbstractorLayParty.m */; };
+		EE9A9E7D18FB7F3F0095C315 /* LeoAccuser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7C18FB7F3F0095C315 /* LeoAccuser.m */; };
+		EE9A9E8018FB7F960095C315 /* LeoDefendant.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7F18FB7F960095C315 /* LeoDefendant.m */; };
+		EE9A9E8318FB7FB20095C315 /* LeoLawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E8218FB7FB20095C315 /* LeoLawyer.m */; };
 		EEC40BCC18E93DD10090F346 /* WhiteCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC40BCB18E93DD10090F346 /* WhiteCarFactory.m */; };
 		EEC40BCF18E93DF60090F346 /* WhiteCar.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC40BCE18E93DF60090F346 /* WhiteCar.m */; };
 		EEC40BD218E93E340090F346 /* AbstractCarFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC40BD118E93E340090F346 /* AbstractCarFactory.m */; };
 		EEC40BD518E948280090F346 /* AbstractCar.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC40BD418E948280090F346 /* AbstractCar.m */; };
-<<<<<<< HEAD
-=======
 		EEC9B75718EE856A00E7D1D7 /* LeoDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9B75618EE856A00E7D1D7 /* LeoDirector.m */; };
 		EEC9B75A18EE858300E7D1D7 /* LeoAbstractBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9B75918EE858300E7D1D7 /* LeoAbstractBuilder.m */; };
 		EEC9B75D18EE859C00E7D1D7 /* LeoBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9B75C18EE859C00E7D1D7 /* LeoBuilder.m */; };
 		EEC9B76018EE862100E7D1D7 /* LeoChemicalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9B75F18EE862100E7D1D7 /* LeoChemicalTest.m */; };
 		EEC9B76318EE8B2600E7D1D7 /* LeoAbstractChemicalDrug.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC9B76218EE8B2600E7D1D7 /* LeoAbstractChemicalDrug.m */; };
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,14 @@
 		EE573AA818E1490000F67FE7 /* LeoSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoSingleton.m; sourceTree = "<group>"; };
 		EE573AAB18E16C7400F67FE7 /* LeoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDelegate.h; sourceTree = "<group>"; };
 		EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoDelegate.m; sourceTree = "<group>"; };
+		EE9A9E7818FB7E360095C315 /* AbstractorLayParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractorLayParty.h; sourceTree = "<group>"; };
+		EE9A9E7918FB7E360095C315 /* AbstractorLayParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractorLayParty.m; sourceTree = "<group>"; };
+		EE9A9E7B18FB7F3F0095C315 /* LeoAccuser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoAccuser.h; sourceTree = "<group>"; };
+		EE9A9E7C18FB7F3F0095C315 /* LeoAccuser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoAccuser.m; sourceTree = "<group>"; };
+		EE9A9E7E18FB7F960095C315 /* LeoDefendant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDefendant.h; sourceTree = "<group>"; };
+		EE9A9E7F18FB7F960095C315 /* LeoDefendant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoDefendant.m; sourceTree = "<group>"; };
+		EE9A9E8118FB7FB20095C315 /* LeoLawyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoLawyer.h; sourceTree = "<group>"; };
+		EE9A9E8218FB7FB20095C315 /* LeoLawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoLawyer.m; sourceTree = "<group>"; };
 		EEC40BCA18E93DD10090F346 /* WhiteCarFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteCarFactory.h; sourceTree = "<group>"; };
 		EEC40BCB18E93DD10090F346 /* WhiteCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteCarFactory.m; sourceTree = "<group>"; };
 		EEC40BCD18E93DF60090F346 /* WhiteCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteCar.h; sourceTree = "<group>"; };
@@ -68,8 +77,6 @@
 		EEC40BD118E93E340090F346 /* AbstractCarFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractCarFactory.m; sourceTree = "<group>"; };
 		EEC40BD318E948280090F346 /* AbstractCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractCar.h; sourceTree = "<group>"; };
 		EEC40BD418E948280090F346 /* AbstractCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractCar.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
 		EEC9B75518EE856A00E7D1D7 /* LeoDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDirector.h; sourceTree = "<group>"; };
 		EEC9B75618EE856A00E7D1D7 /* LeoDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoDirector.m; sourceTree = "<group>"; };
 		EEC9B75818EE858300E7D1D7 /* LeoAbstractBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoAbstractBuilder.h; sourceTree = "<group>"; };
@@ -80,7 +87,6 @@
 		EEC9B75F18EE862100E7D1D7 /* LeoChemicalTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoChemicalTest.m; sourceTree = "<group>"; };
 		EEC9B76118EE8B2600E7D1D7 /* LeoAbstractChemicalDrug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoAbstractChemicalDrug.h; sourceTree = "<group>"; };
 		EEC9B76218EE8B2600E7D1D7 /* LeoAbstractChemicalDrug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoAbstractChemicalDrug.m; sourceTree = "<group>"; };
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,10 +164,8 @@
 		EE573AA518E148AF00F67FE7 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-=======
+				EE9A9E7718FB7D260095C315 /* Proxy */,
 				EEC9B75418EE852F00E7D1D7 /* Builder */,
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
 				EEC40BC918E93CE10090F346 /* Factory */,
 				EE573AAA18E16C5300F67FE7 /* Delegate */,
 				EE573AA618E148C900F67FE7 /* Singleton */,
@@ -187,6 +191,21 @@
 			name = Delegate;
 			sourceTree = "<group>";
 		};
+		EE9A9E7718FB7D260095C315 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				EE9A9E7818FB7E360095C315 /* AbstractorLayParty.h */,
+				EE9A9E7918FB7E360095C315 /* AbstractorLayParty.m */,
+				EE9A9E7B18FB7F3F0095C315 /* LeoAccuser.h */,
+				EE9A9E7C18FB7F3F0095C315 /* LeoAccuser.m */,
+				EE9A9E7E18FB7F960095C315 /* LeoDefendant.h */,
+				EE9A9E7F18FB7F960095C315 /* LeoDefendant.m */,
+				EE9A9E8118FB7FB20095C315 /* LeoLawyer.h */,
+				EE9A9E8218FB7FB20095C315 /* LeoLawyer.m */,
+			);
+			name = Proxy;
+			sourceTree = "<group>";
+		};
 		EEC40BC918E93CE10090F346 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,8 +221,6 @@
 			name = Factory;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
 		EEC9B75418EE852F00E7D1D7 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,7 +238,6 @@
 			name = Builder;
 			sourceTree = "<group>";
 		};
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -291,22 +307,19 @@
 			files = (
 				EE0DE8B31783EBB000693C77 /* main.m in Sources */,
 				EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */,
-<<<<<<< HEAD
-				EEC40BD518E948280090F346 /* AbstractCar.m in Sources */,
-				EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */,
-				EEC40BCC18E93DD10090F346 /* WhiteCarFactory.m in Sources */,
-				EEC40BD218E93E340090F346 /* AbstractCarFactory.m in Sources */,
-=======
 				EEC9B76018EE862100E7D1D7 /* LeoChemicalTest.m in Sources */,
+				EE9A9E7D18FB7F3F0095C315 /* LeoAccuser.m in Sources */,
 				EEC9B75A18EE858300E7D1D7 /* LeoAbstractBuilder.m in Sources */,
 				EEC40BD518E948280090F346 /* AbstractCar.m in Sources */,
+				EE9A9E8018FB7F960095C315 /* LeoDefendant.m in Sources */,
 				EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */,
 				EEC9B75718EE856A00E7D1D7 /* LeoDirector.m in Sources */,
 				EEC40BCC18E93DD10090F346 /* WhiteCarFactory.m in Sources */,
 				EEC9B75D18EE859C00E7D1D7 /* LeoBuilder.m in Sources */,
 				EEC40BD218E93E340090F346 /* AbstractCarFactory.m in Sources */,
+				EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */,
 				EEC9B76318EE8B2600E7D1D7 /* LeoAbstractChemicalDrug.m in Sources */,
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
+				EE9A9E8318FB7FB20095C315 /* LeoLawyer.m in Sources */,
 				EEC40BCF18E93DF60090F346 /* WhiteCar.m in Sources */,
 				EE0DE8B71783EBB000693C77 /* AppDelegate.m in Sources */,
 				EE0DE8C01783EBB000693C77 /* ViewController.m in Sources */,

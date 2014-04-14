@@ -12,11 +12,12 @@
 #import "AbstractCarFactory.h"
 #import "AbstractCar.h"
 #import "WhiteCarFactory.h"
-<<<<<<< HEAD
-=======
 #import "LeoDirector.h"
 #import "LeoAbstractChemicalDrug.h"
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
+#import "AbstractorLayParty.h"
+#import "LeoLawyer.h"
+#import "LeoAccuser.h"
+#import "LeoDefendant.h"
 
 @interface Model : NSObject
 @end
@@ -43,20 +44,13 @@
     
     
     [self testReferCount];
-<<<<<<< HEAD
-    [self testSingleton];
-    [self testFactory];
-    self.leoDelegate = [[LeoDelegate alloc] init];
-    self.leoDelegate.delegate = self;
-    [self testDelegate:500];
-=======
     [self testSingletonPattern];
     [self testFactoryPattern];
     self.leoDelegate = [[LeoDelegate alloc] init];
     self.leoDelegate.delegate = self;
     [self testDelegate:500];
     [self testBuilderPattern];
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
+    [self testProxyPattern];
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,9 +60,32 @@
     
     [self.leoDelegate release];
 }
-<<<<<<< HEAD
--(void) testFactory{
-=======
+-(void) testProxyPattern {
+    LeoAccuser *accuser= [[LeoAccuser alloc] init];
+    accuser.name = @"ZhangSan";
+    accuser.age  = 30;
+    accuser.profession = @"traffic police";
+    LeoLawyer *accuserLawyer = [[LeoLawyer alloc] initWithLawParty:accuser];
+    
+    LeoDefendant *defendant = [[LeoDefendant alloc] init];
+    defendant.name = @"LiSi";
+    defendant.age = 40;
+    defendant.profession = @"driver";
+    LeoLawyer *defendantLawyer = [[LeoLawyer alloc] initWithLawParty:defendant];
+    
+    NSDate *date = [NSDate date];
+    NSTimeInterval ti = 3600*24*7;
+    date = [date dateByAddingTimeInterval:ti];
+    NSLog(@"I am judge Leo， please tell me you personal information");
+    [accuser introduceMySelf];
+    [defendant introduceMySelf];
+    
+    NSLog(@"I am judge Leo, every lawyer, please tell me what your lawParty was doing one week ago?");
+    [accuserLawyer whatIWasDoingWhen:date];
+    [defendantLawyer whatIWasDoingWhen:date];
+
+    
+}
 -(void) testBuilderPattern{
     LeoDirector * director = [[LeoDirector alloc] init];
     LeoAbstractChemicalDrug *drug1 = [director createChemicalDrug1];
@@ -83,16 +100,11 @@
     
 }
 -(void) testFactoryPattern{
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
     AbstractCarFactory *carFactory = [[WhiteCarFactory alloc] init];
     AbstractCar *car = [carFactory createCar];
     [car carAlarm];
 }
-<<<<<<< HEAD
-- (void) testSingleton {
-=======
 - (void) testSingletonPattern {
->>>>>>> 0b38335b373a3af50a1e5b63b8f814cd4b419c02
     LeoSingleton* singleton1 = [LeoSingleton shareLeoSingleton];
     singleton1.name = @"leo";
     LeoSingleton* singleton2 = [LeoSingleton shareLeoSingleton];
