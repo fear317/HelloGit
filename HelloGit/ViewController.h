@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LeoDelegate.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<HelpMeDoSomething>
+@property (nonatomic, retain) LeoDelegate *leoDelegate;
 @end
