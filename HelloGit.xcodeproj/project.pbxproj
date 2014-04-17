@@ -20,6 +20,7 @@
 		EE0DE8C31783EBB000693C77 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0DE8C11783EBB000693C77 /* ViewController_iPhone.xib */; };
 		EE0DE8C61783EBB000693C77 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0DE8C41783EBB000693C77 /* ViewController_iPad.xib */; };
 		EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3E835618C89279007D351F /* NSString+Symbol.m */; };
+		EE50AEAD18FFAE7A005E1C6C /* LeoBook.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEAC18FFAE7A005E1C6C /* LeoBook.m */; };
 		EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AA818E1490000F67FE7 /* LeoSingleton.m */; };
 		EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */; };
 		EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7918FB7E360095C315 /* AbstractorLayParty.m */; };
@@ -57,6 +58,8 @@
 		EE0DE8C51783EBB000693C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		EE3E835518C89279007D351F /* NSString+Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Symbol.h"; sourceTree = "<group>"; };
 		EE3E835618C89279007D351F /* NSString+Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Symbol.m"; sourceTree = "<group>"; };
+		EE50AEAB18FFAE7A005E1C6C /* LeoBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoBook.h; sourceTree = "<group>"; };
+		EE50AEAC18FFAE7A005E1C6C /* LeoBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoBook.m; sourceTree = "<group>"; };
 		EE573AA718E1490000F67FE7 /* LeoSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoSingleton.h; sourceTree = "<group>"; };
 		EE573AA818E1490000F67FE7 /* LeoSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoSingleton.m; sourceTree = "<group>"; };
 		EE573AAB18E16C7400F67FE7 /* LeoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDelegate.h; sourceTree = "<group>"; };
@@ -161,9 +164,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EE50AEAA18FFAE47005E1C6C /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				EE50AEAB18FFAE7A005E1C6C /* LeoBook.h */,
+				EE50AEAC18FFAE7A005E1C6C /* LeoBook.m */,
+			);
+			name = Prototype;
+			sourceTree = "<group>";
+		};
 		EE573AA518E148AF00F67FE7 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				EE50AEAA18FFAE47005E1C6C /* Prototype */,
 				EE9A9E7718FB7D260095C315 /* Proxy */,
 				EEC9B75418EE852F00E7D1D7 /* Builder */,
 				EEC40BC918E93CE10090F346 /* Factory */,
@@ -316,6 +329,7 @@
 				EEC9B75718EE856A00E7D1D7 /* LeoDirector.m in Sources */,
 				EEC40BCC18E93DD10090F346 /* WhiteCarFactory.m in Sources */,
 				EEC9B75D18EE859C00E7D1D7 /* LeoBuilder.m in Sources */,
+				EE50AEAD18FFAE7A005E1C6C /* LeoBook.m in Sources */,
 				EEC40BD218E93E340090F346 /* AbstractCarFactory.m in Sources */,
 				EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */,
 				EEC9B76318EE8B2600E7D1D7 /* LeoAbstractChemicalDrug.m in Sources */,

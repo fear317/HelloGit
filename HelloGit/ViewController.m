@@ -18,6 +18,7 @@
 #import "LeoLawyer.h"
 #import "LeoAccuser.h"
 #import "LeoDefendant.h"
+#import "LeoBook.h"
 
 @interface Model : NSObject
 @end
@@ -51,6 +52,7 @@
     [self testDelegate:500];
     [self testBuilderPattern];
     [self testProxyPattern];
+    [self testPrototype];
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,6 +61,27 @@
     // Dispose of any resources that can be recreated.
     
     [self.leoDelegate release];
+}
+- (void) testPrototype {
+    LeoBook *book = [[LeoBook alloc] init];
+    book.name     = @"诛仙";
+    book.author   = @"萧鼎";
+    book.count    = [[NSNumber alloc] initWithInt:500];
+    [book.markArr addObject:@"first section"];
+    [book.markArr addObject:@"second section"];
+    [book.markArr addObject:@"third section"];
+    NSLog(@"book prototype name=%@, author=%@, count=%d, mark:%@",book.name, book.author, [book.count intValue], book.markArr);
+    LeoBook *book1 = [book copy];
+    NSLog(@"book1 name=%@, author=%@, count=%d, mark:%@",book1.name, book1.author, [book1.count intValue], book1.markArr);
+    NSLog(@"then change just book prototpye");
+    book.name   = @"超魔杀帝国";
+    book.author = @"小兵队长";
+    book.count  = [NSNumber numberWithInt:250];
+    [book.markArr addObject:@"page 108"];
+    [book.markArr removeObject:@"first section"];
+    NSLog(@"book prototype name=%@, author=%@, count=%d, mark:%@",book.name, book.author, [book.count intValue], book.markArr);
+    NSLog(@"book1 name=%@, author=%@, count=%d, mark:%@",book1.name, book1.author, [book1.count intValue], book1.markArr);
+
 }
 -(void) testProxyPattern {
     LeoAccuser *accuser= [[LeoAccuser alloc] init];
