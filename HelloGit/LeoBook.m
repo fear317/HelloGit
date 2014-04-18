@@ -32,4 +32,8 @@
     
     return book;
 }
+
+-(LeoBook*)clone {
+    return [self copy];
+}
 @end

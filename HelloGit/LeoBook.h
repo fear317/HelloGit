@@ -14,4 +14,6 @@
 @property (nonatomic, retain) NSString *author;
 @property (nonatomic, retain) NSNumber *count;
 @property (nonatomic, retain) NSMutableArray *markArr;
+
+-(LeoBook*)clone;
 @end

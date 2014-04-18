@@ -71,7 +71,7 @@
     [book.markArr addObject:@"second section"];
     [book.markArr addObject:@"third section"];
     NSLog(@"book prototype name=%@, author=%@, count=%d, mark:%@",book.name, book.author, [book.count intValue], book.markArr);
-    LeoBook *book1 = [book copy];
+    LeoBook *book1 = [book clone];
     NSLog(@"book1 name=%@, author=%@, count=%d, mark:%@",book1.name, book1.author, [book1.count intValue], book1.markArr);
     NSLog(@"then change just book prototpye");
     book.name   = @"超魔杀帝国";
