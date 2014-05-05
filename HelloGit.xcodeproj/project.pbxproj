@@ -21,6 +21,11 @@
 		EE0DE8C61783EBB000693C77 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0DE8C41783EBB000693C77 /* ViewController_iPad.xib */; };
 		EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3E835618C89279007D351F /* NSString+Symbol.m */; };
 		EE50AEAD18FFAE7A005E1C6C /* LeoBook.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEAC18FFAE7A005E1C6C /* LeoBook.m */; };
+		EE50AEB81900DABD005E1C6C /* AbstractorMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEB71900DABD005E1C6C /* AbstractorMediator.m */; };
+		EE50AEBB1900DB04005E1C6C /* LeoTVBox.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEBA1900DB04005E1C6C /* LeoTVBox.m */; };
+		EE50AEBE1900DC6A005E1C6C /* AbstractorUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEBD1900DC6A005E1C6C /* AbstractorUser.m */; };
+		EE50AEC11900DCC9005E1C6C /* LeoTVAudience.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEC01900DCC9005E1C6C /* LeoTVAudience.m */; };
+		EE50AEC41900DE34005E1C6C /* LeoContentProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEC31900DE34005E1C6C /* LeoContentProvider.m */; };
 		EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AA818E1490000F67FE7 /* LeoSingleton.m */; };
 		EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */; };
 		EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7918FB7E360095C315 /* AbstractorLayParty.m */; };
@@ -60,6 +65,16 @@
 		EE3E835618C89279007D351F /* NSString+Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Symbol.m"; sourceTree = "<group>"; };
 		EE50AEAB18FFAE7A005E1C6C /* LeoBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoBook.h; sourceTree = "<group>"; };
 		EE50AEAC18FFAE7A005E1C6C /* LeoBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoBook.m; sourceTree = "<group>"; };
+		EE50AEB61900DABD005E1C6C /* AbstractorMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractorMediator.h; sourceTree = "<group>"; };
+		EE50AEB71900DABD005E1C6C /* AbstractorMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractorMediator.m; sourceTree = "<group>"; };
+		EE50AEB91900DB04005E1C6C /* LeoTVBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoTVBox.h; sourceTree = "<group>"; };
+		EE50AEBA1900DB04005E1C6C /* LeoTVBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoTVBox.m; sourceTree = "<group>"; };
+		EE50AEBC1900DC6A005E1C6C /* AbstractorUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractorUser.h; sourceTree = "<group>"; };
+		EE50AEBD1900DC6A005E1C6C /* AbstractorUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractorUser.m; sourceTree = "<group>"; };
+		EE50AEBF1900DCC9005E1C6C /* LeoTVAudience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoTVAudience.h; sourceTree = "<group>"; };
+		EE50AEC01900DCC9005E1C6C /* LeoTVAudience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoTVAudience.m; sourceTree = "<group>"; };
+		EE50AEC21900DE34005E1C6C /* LeoContentProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoContentProvider.h; sourceTree = "<group>"; };
+		EE50AEC31900DE34005E1C6C /* LeoContentProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoContentProvider.m; sourceTree = "<group>"; };
 		EE573AA718E1490000F67FE7 /* LeoSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoSingleton.h; sourceTree = "<group>"; };
 		EE573AA818E1490000F67FE7 /* LeoSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoSingleton.m; sourceTree = "<group>"; };
 		EE573AAB18E16C7400F67FE7 /* LeoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDelegate.h; sourceTree = "<group>"; };
@@ -173,9 +188,27 @@
 			name = Prototype;
 			sourceTree = "<group>";
 		};
+		EE50AEB51900CF91005E1C6C /* mediator */ = {
+			isa = PBXGroup;
+			children = (
+				EE50AEB61900DABD005E1C6C /* AbstractorMediator.h */,
+				EE50AEB71900DABD005E1C6C /* AbstractorMediator.m */,
+				EE50AEB91900DB04005E1C6C /* LeoTVBox.h */,
+				EE50AEBA1900DB04005E1C6C /* LeoTVBox.m */,
+				EE50AEBC1900DC6A005E1C6C /* AbstractorUser.h */,
+				EE50AEBD1900DC6A005E1C6C /* AbstractorUser.m */,
+				EE50AEBF1900DCC9005E1C6C /* LeoTVAudience.h */,
+				EE50AEC01900DCC9005E1C6C /* LeoTVAudience.m */,
+				EE50AEC21900DE34005E1C6C /* LeoContentProvider.h */,
+				EE50AEC31900DE34005E1C6C /* LeoContentProvider.m */,
+			);
+			name = mediator;
+			sourceTree = "<group>";
+		};
 		EE573AA518E148AF00F67FE7 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				EE50AEB51900CF91005E1C6C /* mediator */,
 				EE50AEAA18FFAE47005E1C6C /* Prototype */,
 				EE9A9E7718FB7D260095C315 /* Proxy */,
 				EEC9B75418EE852F00E7D1D7 /* Builder */,
@@ -319,6 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0DE8B31783EBB000693C77 /* main.m in Sources */,
+				EE50AEB81900DABD005E1C6C /* AbstractorMediator.m in Sources */,
+				EE50AEC11900DCC9005E1C6C /* LeoTVAudience.m in Sources */,
 				EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */,
 				EEC9B76018EE862100E7D1D7 /* LeoChemicalTest.m in Sources */,
 				EE9A9E7D18FB7F3F0095C315 /* LeoAccuser.m in Sources */,
@@ -333,8 +368,11 @@
 				EEC40BD218E93E340090F346 /* AbstractCarFactory.m in Sources */,
 				EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */,
 				EEC9B76318EE8B2600E7D1D7 /* LeoAbstractChemicalDrug.m in Sources */,
+				EE50AEBE1900DC6A005E1C6C /* AbstractorUser.m in Sources */,
+				EE50AEBB1900DB04005E1C6C /* LeoTVBox.m in Sources */,
 				EE9A9E8318FB7FB20095C315 /* LeoLawyer.m in Sources */,
 				EEC40BCF18E93DF60090F346 /* WhiteCar.m in Sources */,
+				EE50AEC41900DE34005E1C6C /* LeoContentProvider.m in Sources */,
 				EE0DE8B71783EBB000693C77 /* AppDelegate.m in Sources */,
 				EE0DE8C01783EBB000693C77 /* ViewController.m in Sources */,
 				EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */,

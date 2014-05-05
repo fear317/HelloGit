@@ -19,6 +19,9 @@
 #import "LeoAccuser.h"
 #import "LeoDefendant.h"
 #import "LeoBook.h"
+#import "LeoTVBox.h"
+#import "LeoTVAudience.h"
+#import "LeoContentProvider.h"
 
 @interface Model : NSObject
 @end
@@ -53,6 +56,7 @@
     [self testBuilderPattern];
     [self testProxyPattern];
     [self testPrototype];
+    [self testMediator];
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,6 +65,15 @@
     // Dispose of any resources that can be recreated.
     
     [self.leoDelegate release];
+}
+- (void) testMediator {
+    LeoTVBox* tvBox = [[LeoTVBox alloc] init];
+    LeoTVAudience *tvUser = [[LeoTVAudience alloc] initWithTVBox:tvBox];
+    LeoContentProvider *tvCP = [[LeoContentProvider alloc] initWithTVBox:tvBox];
+    [tvCP provideFor:@"北京" withContent:@"倚天屠龙记"];
+    [tvCP provideFor:@"上海 " withContent:@"倚天屠龙记"];
+    [tvUser wantToWatch:@"北京"];
+    [tvUser wantToWatch:@"河南"];
 }
 - (void) testPrototype {
     LeoBook *book = [[LeoBook alloc] init];
