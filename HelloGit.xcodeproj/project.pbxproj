@@ -26,6 +26,16 @@
 		EE50AEBE1900DC6A005E1C6C /* AbstractorUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEBD1900DC6A005E1C6C /* AbstractorUser.m */; };
 		EE50AEC11900DCC9005E1C6C /* LeoTVAudience.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEC01900DCC9005E1C6C /* LeoTVAudience.m */; };
 		EE50AEC41900DE34005E1C6C /* LeoContentProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EE50AEC31900DE34005E1C6C /* LeoContentProvider.m */; };
+		EE55A2721918BB7D004A5095 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A2711918BB7D004A5095 /* Customer.m */; };
+		EE55A2781918BBDA004A5095 /* LeoServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A2771918BBDA004A5095 /* LeoServer.m */; };
+		EE55A27B1918BC2C004A5095 /* AbstractorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A27A1918BC2C004A5095 /* AbstractorCommand.m */; };
+		EE55A27E1918BCBB004A5095 /* OrderStapleFood.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A27D1918BCBB004A5095 /* OrderStapleFood.m */; };
+		EE55A2811918BCD5004A5095 /* OrderDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A2801918BCD5004A5095 /* OrderDrink.m */; };
+		EE55A2841918BCF0004A5095 /* OrderMeatFood.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A2831918BCF0004A5095 /* OrderMeatFood.m */; };
+		EE55A2871918BD5E004A5095 /* LeoChef.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A2861918BD5E004A5095 /* LeoChef.m */; };
+		EE55A28A1918BD8A004A5095 /* LeoDrinkWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A2891918BD8A004A5095 /* LeoDrinkWaiter.m */; };
+		EE55A28D1918BDA5004A5095 /* LeoMeatWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A28C1918BDA5004A5095 /* LeoMeatWaiter.m */; };
+		EE55A2901918C15A004A5095 /* AbstractorCook.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A28F1918C15A004A5095 /* AbstractorCook.m */; };
 		EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AA818E1490000F67FE7 /* LeoSingleton.m */; };
 		EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */; };
 		EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7918FB7E360095C315 /* AbstractorLayParty.m */; };
@@ -75,6 +85,26 @@
 		EE50AEC01900DCC9005E1C6C /* LeoTVAudience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoTVAudience.m; sourceTree = "<group>"; };
 		EE50AEC21900DE34005E1C6C /* LeoContentProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoContentProvider.h; sourceTree = "<group>"; };
 		EE50AEC31900DE34005E1C6C /* LeoContentProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoContentProvider.m; sourceTree = "<group>"; };
+		EE55A2701918BB7D004A5095 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		EE55A2711918BB7D004A5095 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		EE55A2761918BBDA004A5095 /* LeoServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoServer.h; sourceTree = "<group>"; };
+		EE55A2771918BBDA004A5095 /* LeoServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoServer.m; sourceTree = "<group>"; };
+		EE55A2791918BC2C004A5095 /* AbstractorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractorCommand.h; sourceTree = "<group>"; };
+		EE55A27A1918BC2C004A5095 /* AbstractorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractorCommand.m; sourceTree = "<group>"; };
+		EE55A27C1918BCBB004A5095 /* OrderStapleFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderStapleFood.h; sourceTree = "<group>"; };
+		EE55A27D1918BCBB004A5095 /* OrderStapleFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderStapleFood.m; sourceTree = "<group>"; };
+		EE55A27F1918BCD5004A5095 /* OrderDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDrink.h; sourceTree = "<group>"; };
+		EE55A2801918BCD5004A5095 /* OrderDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDrink.m; sourceTree = "<group>"; };
+		EE55A2821918BCF0004A5095 /* OrderMeatFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderMeatFood.h; sourceTree = "<group>"; };
+		EE55A2831918BCF0004A5095 /* OrderMeatFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderMeatFood.m; sourceTree = "<group>"; };
+		EE55A2851918BD5E004A5095 /* LeoChef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoChef.h; sourceTree = "<group>"; };
+		EE55A2861918BD5E004A5095 /* LeoChef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoChef.m; sourceTree = "<group>"; };
+		EE55A2881918BD8A004A5095 /* LeoDrinkWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDrinkWaiter.h; sourceTree = "<group>"; };
+		EE55A2891918BD8A004A5095 /* LeoDrinkWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoDrinkWaiter.m; sourceTree = "<group>"; };
+		EE55A28B1918BDA5004A5095 /* LeoMeatWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoMeatWaiter.h; sourceTree = "<group>"; };
+		EE55A28C1918BDA5004A5095 /* LeoMeatWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoMeatWaiter.m; sourceTree = "<group>"; };
+		EE55A28E1918C15A004A5095 /* AbstractorCook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractorCook.h; sourceTree = "<group>"; };
+		EE55A28F1918C15A004A5095 /* AbstractorCook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractorCook.m; sourceTree = "<group>"; };
 		EE573AA718E1490000F67FE7 /* LeoSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoSingleton.h; sourceTree = "<group>"; };
 		EE573AA818E1490000F67FE7 /* LeoSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoSingleton.m; sourceTree = "<group>"; };
 		EE573AAB18E16C7400F67FE7 /* LeoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDelegate.h; sourceTree = "<group>"; };
@@ -188,7 +218,7 @@
 			name = Prototype;
 			sourceTree = "<group>";
 		};
-		EE50AEB51900CF91005E1C6C /* mediator */ = {
+		EE50AEB51900CF91005E1C6C /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
 				EE50AEB61900DABD005E1C6C /* AbstractorMediator.h */,
@@ -202,13 +232,41 @@
 				EE50AEC21900DE34005E1C6C /* LeoContentProvider.h */,
 				EE50AEC31900DE34005E1C6C /* LeoContentProvider.m */,
 			);
-			name = mediator;
+			name = Mediator;
+			sourceTree = "<group>";
+		};
+		EE55A26E1918BB3F004A5095 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				EE55A2701918BB7D004A5095 /* Customer.h */,
+				EE55A2711918BB7D004A5095 /* Customer.m */,
+				EE55A2761918BBDA004A5095 /* LeoServer.h */,
+				EE55A2771918BBDA004A5095 /* LeoServer.m */,
+				EE55A2791918BC2C004A5095 /* AbstractorCommand.h */,
+				EE55A27A1918BC2C004A5095 /* AbstractorCommand.m */,
+				EE55A27C1918BCBB004A5095 /* OrderStapleFood.h */,
+				EE55A27D1918BCBB004A5095 /* OrderStapleFood.m */,
+				EE55A27F1918BCD5004A5095 /* OrderDrink.h */,
+				EE55A2801918BCD5004A5095 /* OrderDrink.m */,
+				EE55A2821918BCF0004A5095 /* OrderMeatFood.h */,
+				EE55A2831918BCF0004A5095 /* OrderMeatFood.m */,
+				EE55A2851918BD5E004A5095 /* LeoChef.h */,
+				EE55A2861918BD5E004A5095 /* LeoChef.m */,
+				EE55A2881918BD8A004A5095 /* LeoDrinkWaiter.h */,
+				EE55A2891918BD8A004A5095 /* LeoDrinkWaiter.m */,
+				EE55A28B1918BDA5004A5095 /* LeoMeatWaiter.h */,
+				EE55A28C1918BDA5004A5095 /* LeoMeatWaiter.m */,
+				EE55A28E1918C15A004A5095 /* AbstractorCook.h */,
+				EE55A28F1918C15A004A5095 /* AbstractorCook.m */,
+			);
+			name = Command;
 			sourceTree = "<group>";
 		};
 		EE573AA518E148AF00F67FE7 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				EE50AEB51900CF91005E1C6C /* mediator */,
+				EE55A26E1918BB3F004A5095 /* Command */,
+				EE50AEB51900CF91005E1C6C /* Mediator */,
 				EE50AEAA18FFAE47005E1C6C /* Prototype */,
 				EE9A9E7718FB7D260095C315 /* Proxy */,
 				EEC9B75418EE852F00E7D1D7 /* Builder */,
@@ -353,6 +411,7 @@
 			files = (
 				EE0DE8B31783EBB000693C77 /* main.m in Sources */,
 				EE50AEB81900DABD005E1C6C /* AbstractorMediator.m in Sources */,
+				EE55A2901918C15A004A5095 /* AbstractorCook.m in Sources */,
 				EE50AEC11900DCC9005E1C6C /* LeoTVAudience.m in Sources */,
 				EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */,
 				EEC9B76018EE862100E7D1D7 /* LeoChemicalTest.m in Sources */,
@@ -360,7 +419,9 @@
 				EEC9B75A18EE858300E7D1D7 /* LeoAbstractBuilder.m in Sources */,
 				EEC40BD518E948280090F346 /* AbstractCar.m in Sources */,
 				EE9A9E8018FB7F960095C315 /* LeoDefendant.m in Sources */,
+				EE55A2781918BBDA004A5095 /* LeoServer.m in Sources */,
 				EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */,
+				EE55A27E1918BCBB004A5095 /* OrderStapleFood.m in Sources */,
 				EEC9B75718EE856A00E7D1D7 /* LeoDirector.m in Sources */,
 				EEC40BCC18E93DD10090F346 /* WhiteCarFactory.m in Sources */,
 				EEC9B75D18EE859C00E7D1D7 /* LeoBuilder.m in Sources */,
@@ -368,13 +429,20 @@
 				EEC40BD218E93E340090F346 /* AbstractCarFactory.m in Sources */,
 				EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */,
 				EEC9B76318EE8B2600E7D1D7 /* LeoAbstractChemicalDrug.m in Sources */,
+				EE55A28D1918BDA5004A5095 /* LeoMeatWaiter.m in Sources */,
 				EE50AEBE1900DC6A005E1C6C /* AbstractorUser.m in Sources */,
+				EE55A2841918BCF0004A5095 /* OrderMeatFood.m in Sources */,
 				EE50AEBB1900DB04005E1C6C /* LeoTVBox.m in Sources */,
 				EE9A9E8318FB7FB20095C315 /* LeoLawyer.m in Sources */,
 				EEC40BCF18E93DF60090F346 /* WhiteCar.m in Sources */,
+				EE55A2811918BCD5004A5095 /* OrderDrink.m in Sources */,
+				EE55A28A1918BD8A004A5095 /* LeoDrinkWaiter.m in Sources */,
 				EE50AEC41900DE34005E1C6C /* LeoContentProvider.m in Sources */,
+				EE55A2871918BD5E004A5095 /* LeoChef.m in Sources */,
 				EE0DE8B71783EBB000693C77 /* AppDelegate.m in Sources */,
+				EE55A2721918BB7D004A5095 /* Customer.m in Sources */,
 				EE0DE8C01783EBB000693C77 /* ViewController.m in Sources */,
+				EE55A27B1918BC2C004A5095 /* AbstractorCommand.m in Sources */,
 				EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

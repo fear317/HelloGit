@@ -22,6 +22,14 @@
 #import "LeoTVBox.h"
 #import "LeoTVAudience.h"
 #import "LeoContentProvider.h"
+#import "Customer.h"
+#import "LeoServer.h"
+#import "OrderStapleFood.h"
+#import "OrderDrink.h"
+#import "OrderMeatFood.h"
+#import "LeoChef.h"
+#import "LeoDrinkWaiter.h"
+#import "LeoMeatWaiter.h"
 
 @interface Model : NSObject
 @end
@@ -57,6 +65,7 @@
     [self testProxyPattern];
     [self testPrototype];
     [self testMediator];
+    [self testCommand];
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,6 +75,31 @@
     
     [self.leoDelegate release];
 }
+-(void) testCommand {
+    NSLog(@"/**********************************testCommandPattern************************************/");
+    LeoChef *chef = [[LeoChef alloc] init];
+    LeoDrinkWaiter *drinkWaiter = [[LeoDrinkWaiter alloc] init];
+    LeoMeatWaiter *meatWaiter = [[LeoMeatWaiter alloc] init];
+    
+    OrderStapleFood * stapleFood = [[OrderStapleFood alloc] init];
+    [stapleFood installCook:chef];
+    OrderDrink *drink = [[OrderDrink alloc] init];
+    [drink installCook:drinkWaiter];
+    OrderMeatFood *meatFood = [[OrderMeatFood alloc] init];
+    [meatFood installCook:meatWaiter];
+    
+    LeoServer *server = [[LeoServer alloc] init];
+    
+    Customer *cstmer = [[Customer alloc] init];
+    [cstmer callServer:server];
+    [cstmer orderFood:stapleFood];
+    [server executeCommand];
+    [cstmer orderFood:drink];
+    [server executeCommand];
+    [cstmer orderFood:meatFood];
+    [server executeCommand];
+}
+
 - (void) testMediator {
     LeoTVBox* tvBox = [[LeoTVBox alloc] init];
     LeoTVAudience *tvUser = [[LeoTVAudience alloc] initWithTVBox:tvBox];
