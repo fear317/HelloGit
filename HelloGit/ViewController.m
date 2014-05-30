@@ -30,6 +30,8 @@
 #import "LeoChef.h"
 #import "LeoDrinkWaiter.h"
 #import "LeoMeatWaiter.h"
+#import "WomenClothes.h"
+#import "DecorateWithFlowers.h"
 
 @interface Model : NSObject
 @end
@@ -66,6 +68,7 @@
     [self testPrototype];
     [self testMediator];
     [self testCommand];
+    [self testDecorate];
 }
 
 - (void)didReceiveMemoryWarning
@@ -74,6 +77,12 @@
     // Dispose of any resources that can be recreated.
     
     [self.leoDelegate release];
+}
+-(void) testDecorate {
+    WomenClothes *clothes = [[WomenClothes alloc] init];
+    DecorateWithFlowers *dFlowers = [[DecorateWithFlowers alloc] initWithClothes:clothes];
+    [dFlowers decriptClothes];
+    
 }
 -(void) testCommand {
     NSLog(@"/**********************************testCommandPattern************************************/");

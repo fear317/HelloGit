@@ -38,6 +38,10 @@
 		EE55A2901918C15A004A5095 /* AbstractorCook.m in Sources */ = {isa = PBXBuildFile; fileRef = EE55A28F1918C15A004A5095 /* AbstractorCook.m */; };
 		EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AA818E1490000F67FE7 /* LeoSingleton.m */; };
 		EE573AAD18E16C7400F67FE7 /* LeoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */; };
+		EE7CA5DD19342F1D00F39105 /* AbstractorClothes.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CA5DC19342F1D00F39105 /* AbstractorClothes.m */; };
+		EE7CA5E01934305B00F39105 /* WomenClothes.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CA5DF1934305B00F39105 /* WomenClothes.m */; };
+		EE7CA5E3193430D200F39105 /* AbstractorDecorate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CA5E2193430D200F39105 /* AbstractorDecorate.m */; };
+		EE7CA5E6193432E500F39105 /* DecorateWithFlowers.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CA5E5193432E500F39105 /* DecorateWithFlowers.m */; };
 		EE9A9E7A18FB7E360095C315 /* AbstractorLayParty.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7918FB7E360095C315 /* AbstractorLayParty.m */; };
 		EE9A9E7D18FB7F3F0095C315 /* LeoAccuser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7C18FB7F3F0095C315 /* LeoAccuser.m */; };
 		EE9A9E8018FB7F960095C315 /* LeoDefendant.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9A9E7F18FB7F960095C315 /* LeoDefendant.m */; };
@@ -109,6 +113,14 @@
 		EE573AA818E1490000F67FE7 /* LeoSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoSingleton.m; sourceTree = "<group>"; };
 		EE573AAB18E16C7400F67FE7 /* LeoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoDelegate.h; sourceTree = "<group>"; };
 		EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeoDelegate.m; sourceTree = "<group>"; };
+		EE7CA5DB19342F1D00F39105 /* AbstractorClothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractorClothes.h; sourceTree = "<group>"; };
+		EE7CA5DC19342F1D00F39105 /* AbstractorClothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractorClothes.m; sourceTree = "<group>"; };
+		EE7CA5DE1934305B00F39105 /* WomenClothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomenClothes.h; sourceTree = "<group>"; };
+		EE7CA5DF1934305B00F39105 /* WomenClothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomenClothes.m; sourceTree = "<group>"; };
+		EE7CA5E1193430D200F39105 /* AbstractorDecorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractorDecorate.h; sourceTree = "<group>"; };
+		EE7CA5E2193430D200F39105 /* AbstractorDecorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractorDecorate.m; sourceTree = "<group>"; };
+		EE7CA5E4193432E500F39105 /* DecorateWithFlowers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorateWithFlowers.h; sourceTree = "<group>"; };
+		EE7CA5E5193432E500F39105 /* DecorateWithFlowers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorateWithFlowers.m; sourceTree = "<group>"; };
 		EE9A9E7818FB7E360095C315 /* AbstractorLayParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractorLayParty.h; sourceTree = "<group>"; };
 		EE9A9E7918FB7E360095C315 /* AbstractorLayParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractorLayParty.m; sourceTree = "<group>"; };
 		EE9A9E7B18FB7F3F0095C315 /* LeoAccuser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeoAccuser.h; sourceTree = "<group>"; };
@@ -265,6 +277,7 @@
 		EE573AA518E148AF00F67FE7 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				EE7CA5DA19342E9B00F39105 /* Decorate */,
 				EE55A26E1918BB3F004A5095 /* Command */,
 				EE50AEB51900CF91005E1C6C /* Mediator */,
 				EE50AEAA18FFAE47005E1C6C /* Prototype */,
@@ -293,6 +306,21 @@
 				EE573AAC18E16C7400F67FE7 /* LeoDelegate.m */,
 			);
 			name = Delegate;
+			sourceTree = "<group>";
+		};
+		EE7CA5DA19342E9B00F39105 /* Decorate */ = {
+			isa = PBXGroup;
+			children = (
+				EE7CA5DB19342F1D00F39105 /* AbstractorClothes.h */,
+				EE7CA5DC19342F1D00F39105 /* AbstractorClothes.m */,
+				EE7CA5DE1934305B00F39105 /* WomenClothes.h */,
+				EE7CA5DF1934305B00F39105 /* WomenClothes.m */,
+				EE7CA5E1193430D200F39105 /* AbstractorDecorate.h */,
+				EE7CA5E2193430D200F39105 /* AbstractorDecorate.m */,
+				EE7CA5E4193432E500F39105 /* DecorateWithFlowers.h */,
+				EE7CA5E5193432E500F39105 /* DecorateWithFlowers.m */,
+			);
+			name = Decorate;
 			sourceTree = "<group>";
 		};
 		EE9A9E7718FB7D260095C315 /* Proxy */ = {
@@ -416,8 +444,10 @@
 				EE573AA918E1490000F67FE7 /* LeoSingleton.m in Sources */,
 				EEC9B76018EE862100E7D1D7 /* LeoChemicalTest.m in Sources */,
 				EE9A9E7D18FB7F3F0095C315 /* LeoAccuser.m in Sources */,
+				EE7CA5E6193432E500F39105 /* DecorateWithFlowers.m in Sources */,
 				EEC9B75A18EE858300E7D1D7 /* LeoAbstractBuilder.m in Sources */,
 				EEC40BD518E948280090F346 /* AbstractCar.m in Sources */,
+				EE7CA5DD19342F1D00F39105 /* AbstractorClothes.m in Sources */,
 				EE9A9E8018FB7F960095C315 /* LeoDefendant.m in Sources */,
 				EE55A2781918BBDA004A5095 /* LeoServer.m in Sources */,
 				EE3E835718C89279007D351F /* NSString+Symbol.m in Sources */,
@@ -437,9 +467,11 @@
 				EEC40BCF18E93DF60090F346 /* WhiteCar.m in Sources */,
 				EE55A2811918BCD5004A5095 /* OrderDrink.m in Sources */,
 				EE55A28A1918BD8A004A5095 /* LeoDrinkWaiter.m in Sources */,
+				EE7CA5E01934305B00F39105 /* WomenClothes.m in Sources */,
 				EE50AEC41900DE34005E1C6C /* LeoContentProvider.m in Sources */,
 				EE55A2871918BD5E004A5095 /* LeoChef.m in Sources */,
 				EE0DE8B71783EBB000693C77 /* AppDelegate.m in Sources */,
+				EE7CA5E3193430D200F39105 /* AbstractorDecorate.m in Sources */,
 				EE55A2721918BB7D004A5095 /* Customer.m in Sources */,
 				EE0DE8C01783EBB000693C77 /* ViewController.m in Sources */,
 				EE55A27B1918BC2C004A5095 /* AbstractorCommand.m in Sources */,
